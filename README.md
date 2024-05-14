@@ -44,7 +44,7 @@ Open index.html in your web browser.
 
 **Usage :-**
 
-Visit the live website: https://severussingh.github.io/Portfolio/
+Portfolio: https://severussingh.github.io/Portfolio/
 
 Explore the different sections: About Me, Education, Skills, Projects, Contact.
 
