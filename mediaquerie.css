@@ -1,0 +1,377 @@
+@media screen and (max-width: 1400px) {
+    #desktop-nav{
+      height: 25vh;
+    }
+    #profile {
+      height: 60vh;
+      margin-bottom: 6rem;
+    }
+    #about{
+      height: 63vh;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact{
+      height: fit-content;
+    }
+    .timeline-section {
+      min-height: 90vh;
+      margin-bottom: 20px;
+  }.skill-container{
+    min-height: 65vh;
+  }
+  .portfolio-box img{
+    width: 100%;
+    height: 15rem;
+  }
+  .portfolio-layer h4 {
+    font-size: 1.4rem; /* Decrease heading font size */
+  }
+  
+  .portfolio-layer p {
+    font-size: 0.7rem; /* Decrease paragraph font size */
+  }
+  
+  .portfolio-layer a {
+    width: 3rem; /* Decrease link size */
+    height: 3rem;
+  }
+  
+  .portfolio-layer a i {
+    font-size: 1.3rem; /* Decrease icon size */
+  }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+  
+    .row .col{
+      flex-basis: 43%;
+     /* margin: 0 3rem */
+    }
+  
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #Skils,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+      height: auto;
+    }
+    #about{
+      height: 90vh;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 400px;
+      height: 400px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+    .about-details-container {
+      padding-top: 0;
+    }.section__text {
+      margin-top: 0;
+    }.skill-container{
+      min-height: 70vh;
+      margin-bottom: 2rem;
+    }
+    .portfolio-box img{
+      width: 100%;
+      height: 18rem;
+    }
+    .portfolio-layer h4 {
+      font-size: 1.4rem; /* Decrease heading font size */
+    }
+    
+    .portfolio-layer p {
+      font-size: 0.7rem; /* Decrease paragraph font size */
+    }
+    
+    .portfolio-layer a {
+      width: 3rem; /* Decrease link size */
+      height: 3rem;
+    }
+    
+    .portfolio-layer a i {
+      font-size: 1.3rem; /* Decrease icon size */
+    }
+  }
+  
+  @media (max-width:1050px){
+  #about{
+    height: auto;
+  }#experience{
+    min-height: 67vh;
+  }#profile{
+    height: auto;
+  }.skill-container{
+    min-height: 47vh;
+    margin-bottom: 4rem
+  }.portfolio-box img{
+    width: 100%;
+    height: 15rem;
+  }
+  .portfolio-layer h4 {
+    font-size: 1rem; /* Decrease heading font size */
+  }
+  
+  .portfolio-layer p {
+    font-size: 0.5rem; /* Decrease paragraph font size */
+  }
+  
+  .portfolio-layer a {
+    width: 3rem; /* Decrease link size */
+    height: 3rem;
+  }
+  
+  .portfolio-layer a i {
+    font-size: 1.3rem; /* Decrease icon size */
+  }
+  }
+  @media (max-width:1000px){
+    .timeline-section{
+      min-height: 80vh;
+    }.skill-container{
+      min-height: 45vh;
+    }#about{
+      height: 60vh;
+    }#experience{
+      min-height: 65vh;
+  }
+  }
+  @media(max-width:800px){
+  
+  #profile{
+    height: auto;
+  }  
+  #about{
+    height: auto;
+  }.skill-container{
+    min-height: 55vh;
+  }
+  }
+  
+  
+  @media screen and (max-width:768px){
+    .timeline-section{
+      min-height: 80vh;
+    }
+    .timeline-items::before{
+      left: 7px;
+    }
+  
+    .timeline-item:nth-child(odd){
+      padding-right: 0;
+      text-align: left;
+    }
+  
+    .timeline-item:nth-child(odd),.timeline-item:nth-child(even){
+      padding-left: 37px;
+    }
+  
+    .timeline-dot{
+      left: 0;
+    }
+  .portfolio-container {
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .portfolio-box {
+    width: 100%; /* Make each portfolio box full width */
+    margin-bottom: 2rem; /* Add some space between each box */
+  }
+  
+  .portfolio-box img {
+    height: auto; /* Allow image height to adjust based on width */
+  }
+  
+  .portfolio-layer {
+    padding: 1rem; /* Reduce padding */
+  }
+  .portfolio-layer h4 {
+    font-size: 1.8rem; /* Decrease heading font size */
+  }
+  
+  .portfolio-layer p {
+    font-size: 1rem; /* Decrease paragraph font size */
+  }
+  
+  .portfolio-layer a {
+    width: 3rem; /* Decrease link size */
+    height: 3rem;
+  }
+  
+  .portfolio-layer a i {
+    font-size: 1.3rem; /* Decrease icon size */
+  }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 100vh;
+      margin-bottom: 0;
+    }#about{
+      height: 90vh;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+      margin-top: 3rem;
+    }
+    .contact-info-container {
+      margin: 5px;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 55vw;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .section__pic-container img{
+      border-radius: 50%;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+    .skill-container{
+      min-height: 83vh;
+      margin-bottom: 0;
+    }
+  }
+  
+  @media(max-width: 568px){
+      .skill-container .row{
+          flex-direction: column;
+      }
+      .skill-container .main-title h1{
+          font-size: 36px;
+      }
+      .skill-container .row{
+          margin-top: 30px;
+      }
+      .row .col:nth-child(2){
+          margin-top: 20px;
+      }
+  }
+  
+  @media screen and (max-width: 400px) {
+    #profile {
+      height: 100vh;
+      margin-bottom: 0;
+  }
+  #about{
+    height: 100vh;
+  }
+  }
+  
+  @media screen and (max-width: 450px) {
+    #profile {
+      height: 80vh;
+      margin-bottom: 5rem;
+  }
+  #about{
+    height: 83vh;
+    margin-bottom: 5rem;
+  }
+  }
+  
+  @media screen and (max-width: 380px) {
+    #profile {
+      height: 90vh;
+      margin-bottom: 0;
+  }#about{
+    height: 100vh;
+  }.skill-container{
+    height: 100vh;
+    margin-bottom: 4rem;
+  }
+  }
+  
+  
+  /* For screens smaller than 576px */
+  @media (max-width: 576px) {
+    .portfolio-layer h4 {
+      font-size: 1.5rem; /* Decrease heading font size */
+    }
+    
+    .portfolio-layer p {
+      font-size: 0.8rem; /* Decrease paragraph font size */
+    }
+    
+    .portfolio-layer a {
+      width: 4rem; /* Decrease link size */
+      height: 4rem;
+    }
+    
+    .portfolio-layer a i {
+      font-size: 1.5rem; /* Decrease icon size */
+    }
+  }
+  
+  /* For screens smaller than 400px */
+  @media (max-width: 400px) {
+    .portfolio-layer h4 {
+      font-size: 1.1rem; /* Decrease heading font size further */
+    }
+    
+    .portfolio-layer p {
+      font-size: 0.5rem; /* Decrease paragraph font size further */
+    }
+  }
+  

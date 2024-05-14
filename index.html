@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquerie.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo animated"><span style="color:#AF2655;">P</span>ortfolio</div>
+      <div>
+        <ul class="nav-links animated">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Education</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#protfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><span style="color:#AF2655;">P</span>ortfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile" class="animated">
+      <div class="section__pic-container">
+        <img src="./assets/IMG_20220816_182703_001.jpg" alt="profile picture" />
+      </div>      
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title"><span style="color:#AF2655;">Ankit</span> Singh</h1>
+        <p class="section__text__p2">Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-dark" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/ankit-singh-a109bb247/', '_blank')"
+          />
+
+
+          <img
+            src="./assets/github.png"
+            alt="My GitHub profile"
+            class="icon"
+            onclick="window.open('https://github.com/severusSingh', '_blank')"
+          />
+
+          <img
+          src="./assets/instagram.png"
+          alt="My Instagram profile"
+          class="icon"
+          onclick="window.open('https://www.instagram.com/mrwick_7736/', '_blank')"
+        />
+
+        </div>
+      </div>
+    </section>
+    <section id="about" class="animated">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              "Hello! I'm Ankit Singh, focused on making smooth digital experiences. I'm good with HTML, CSS, and JavaScript for the front-end, and excited to explore frameworks like React.Js. 
+              I'm currently expanding my skills in back-end development, exploring languages such as Node.Js and frameworks like Express.js. My passion lies in harmonizing front-end elegance with robust back-end functionalities to craft user-centric websites. 
+              I thrive on problem-solving and enjoy the dynamic challenges each project brings.
+             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="experience" class="timeline-section animated">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">Qualification</h1>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Bachelor of Technology</h3>
+            <p>Electronics and Telecommunication Engineering</p>
+            <p>Bhilai Institute of Technology</p>
+            <p>2020 - 2023</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Diploma</h3>
+            <p>Electrical Engineering</p>
+            <p>RSR Rungta College Of Engineering & Technology</p>
+            <p>2016 - 2019</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>10+2</h3>
+            <p>Mathematics</p>
+            <p>2016</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <section class="animated">
+   <div id="Skills" class="skill-container">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">My Skills</h1>
+
+    <div class="row">
+		
+      <!--   *******  Left Section Starts here  *******   -->
+  
+      <div class="col">
+        
+        <div class="sub-title">
+          <h2>Front-End Skills</h2>
+        </div>
+  
+        <div class="skills-container">
+          
+          <div class="skill">
+            <div class="subject">HTML</div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>  
+          </div>
+  
+          <div class="skill">
+            <div class="subject">CSS</div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+  
+           <div class="skill">
+            <div class="subject">JavaScript</div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+            </div>
+          </div>
+  
+          <div class="skill">
+            <div class="subject">ReactJS</div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 65%"></div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+      <!--   ********  Left Section Ends Here  *******  -->
+  
+      <!--   ********  Right Section Starts Here  ********  -->
+  
+      <div class="col">
+        
+        <div class="sub-title">
+          <h2>Back-End Skills</h2>
+        </div>
+  
+        <div class="skills-container">
+          
+          <div class="skill">
+            <div class="subject">Node JS</div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+            </div>
+          </div>
+  
+          <div class="skill">
+            <div class="subject">Express JS</div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 78%"></div>
+            </div>
+          </div>
+  
+          <div class="skill">
+            <div class="subject">Mongodb</div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!--   ********  Right Section Ends Here  ********   -->
+    </div>
+  </div>
+  </section>
+
+  <section id="protfolio" class="protfolio animated">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">PROJECTS</h1>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="assets/project 4.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Natours-App</h4>
+          <p>Developed a tour booking web application using the MERN stack,
+            showcasing proficiency in backend development.</p>
+          <i id="natours-app-icon" class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="assets/project 1.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Netflix-Clone</h4>
+          <p>Built this project using React features like UseEffect, UseState,
+            Axios, react-youtube, asyn function, Props, Components,
+            JSX.</p>
+          <i id="netflix-clone-icon" class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="assets/project 2.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Coffee Shop Site</h4>
+          <p>Built this responsive website using HTML, CSS and JavaScript.</p>
+          <i id="coffee-shop-icon" class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="assets/project 3.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Movies-Finder</h4>
+          <p>Built this project using React Core features like States, Useeffect,
+            JSX, Props, Components, React Router DOM e.t.c .</p>
+          <i id="Movie-Finder-icon" class="fa-solid fa-up-right-from-square"></i>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <section id="contact" class="animated">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p class="para"><a href="mailto:ankitsingh10105@gmail.com">ankitsingh10105@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p class="para"><a href="https://www.linkedin.com/in/ankit-singh-a109bb247/" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Education</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#protfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Ankit Singh All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
