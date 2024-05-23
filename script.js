@@ -42,5 +42,5 @@ function toggleMenu() {
   
     document.getElementById("natours-app-icon").addEventListener("click", function() {
     
-      window.open("https://ankit-natours-app.netlify.app", "_blank");
+      window.open("https://mernfront-1he6.onrender.com", "_blank");
     });
